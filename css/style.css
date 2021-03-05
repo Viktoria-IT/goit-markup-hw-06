@@ -770,19 +770,14 @@ img {
   background-color: var(--blue-text);
 }
 
-/* .list-info .cocial-info:focus .icons-svg,
-.list-info .cocial-info:hover .icons-svg {
+.icon-list .cocial-info:focus,
+.icon-list .cocial-info:hover {
   fill: var(--blue-text);
 }
 
-.list-info .icon-list:hover,
-.list-info .icon-list:focus {
+/* .cocial-info:focus {
   fill: var(--blue-text);
 } */
-
-.cocial-info:focus {
-  fill: var(--blue-text);
-}
 
 .cocial-info {
   transition-property: backgraund-color;
@@ -828,6 +823,9 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 
   transition-property: backgraund-color;
   transition-duration: var(--time);
@@ -842,16 +840,21 @@ img {
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
-
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
   margin-top: 20px;
   color: var(--footer-adress);
+  background-color: var(--background-section-one);
   border: 1px solid var(--backgraund-border);
   border-radius: 4px;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  cursor: pointer;
 }
 
 .telega {
+  /* margin-top: 13px; */
   fill: var(--white-text);
 }
 
