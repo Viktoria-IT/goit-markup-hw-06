@@ -455,7 +455,7 @@
                 </ul>
             </div>  
             
-            <form>
+            <div>
                 <h3 class="text-info">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
                 <div class="form">
                 <label>
@@ -468,7 +468,7 @@
                     </svg>
                 </button>
                 </div>
-            </form>
+            </div>
             </div>
     </footer>
 
@@ -479,6 +479,60 @@
                 <use href="./images/iconssvg/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
             </svg>
         </button>
+
+        <form class="form-modal">
+            <h3 class="text-modal">Оставьте свои данные, мы вам перезвоним</h3>
+        <div class="input">
+            <label class="form-input">
+                <span>Имя</span>
+                <input class="input-modal" type="name" name="name" />
+
+                <div class="form-icon">
+                    <svg width="18" height="18">
+                        <use href="./images/iconssvg/symbol-defs.svg#icon-person-black-18dp-1-1"></use>
+                    </svg>
+                </div>
+            </label>
+        </div>
+
+        <div class="input">
+            <label class="form-input">
+                <span>Телефон</span>
+                <input class="input-modal" type="tel" name="tel" />
+
+                <div class="form-icon">
+                    <svg width="18" height="18">
+                        <use href="./images/iconssvg/symbol-defs.svg#icon-phone-black-18dp-1-1"></use>
+                    </svg>
+                </div>
+            </label>
+            </div>
+
+            <div class="input">
+            <label class="form-input">
+                <span>Почта</span>
+                <input class="input-modal" type="email" name="email" />
+
+                <div class="form-icon">
+                    <svg width="18" height="18">
+                        <use href="./images/iconssvg/symbol-defs.svg#icon-email-black-18dp-1-1"></use>
+                    </svg>
+                </div>
+            </label>
+            </div>
+
+            <div class="input">
+            <label class="form-input">
+                <span>Комментарий</span>
+                <textarea class="comments" name="comments" rows="5" placeholder="Введите текст"></textarea>
+            </label> 
+            </div>  
+        
+        <div class="input-policy">
+            <span class="text-input">Соглашаюсь с рассылкой и принимаю <a class="span-text" href="#">Условия договора</a></span>
+        </div>
+        <button class="button-clik" type="submit">Отправить</button>
+    </form>
     </div>
 </div>
 
