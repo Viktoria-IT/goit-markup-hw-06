@@ -326,7 +326,6 @@ img {
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  cursor: pointer;
 }
 
 .form-info label {
@@ -355,17 +354,16 @@ img {
   transition-property: border;
   transition-duration: var(--time);
   transition-timing-function: var(--cubic);
+  outline: none;
 }
 
 .form-input:focus + .form-icon,
-.form-input:hover + .form-icon,
-.form-input:active + .form-icon {
+.form-input:hover + .form-icon {
   fill: var(--blue-text);
 }
 
 .form-input:focus,
-.form-input:hover,
-.form-input:active {
+.form-input:hover {
   border: 1px solid var(--blue-text);
 }
 
@@ -397,6 +395,13 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.01em;
+  cursor: pointer;
+  outline: none;
+}
+
+.form-info:focus > textarea,
+.form-info:hover > textarea {
+  border: 1px solid var(--blue-text);
 }
 
 .form-policy {
@@ -424,7 +429,7 @@ img {
   cursor: pointer;
 }
 
-.input-ceck:checked + .check-icon {
+.input-check:checked + .check-icon {
   background-color: var(--blue-text);
   background-image: url(../images/iconssvg/symbol-defs.svg#icon-icon-check-1);
   background-size: contain;
@@ -436,6 +441,7 @@ img {
   display: inline-block;
   margin-right: 9px;
   border: 2px solid var(--black-text);
+  fill: var(--white-text);
 }
 
 .input-check {
