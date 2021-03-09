@@ -74,7 +74,7 @@ img {
 .social-links {
   display: flex;
   margin: 0;
-  padding-left: 93px;
+  margin-left: 93px;
 }
 
 .social-links .links::after,
@@ -505,8 +505,8 @@ img {
   font-weight: 900;
   font-size: 44px;
   color: var(--white-text);
-
-  margin-bottom: 30px;
+  max-width: 696px;
+  margin: auto;
 }
 
 .current {
@@ -521,6 +521,7 @@ img {
   align-items: center;
   height: 50px;
   width: 200px;
+  margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: auto;
@@ -600,7 +601,7 @@ img {
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--black-text);
-
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -620,8 +621,8 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-top: 50px;
-  margin-right: -30px;
+
+  margin-right: 0;
 }
 
 .images {
