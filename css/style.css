@@ -832,11 +832,13 @@ img {
   border: 1px solid var(--blue-text);
   height: 90px;
   width: 480px;
+  margin: -1px solid transparent;
 }
 
 .clients-logo .list-logo:hover .clients-svg,
 .clients-logo .list-logo:focus .clients-svg {
   fill: var(--blue-text);
+  margin: -1px solid transparent;
 }
 
 /* address */
